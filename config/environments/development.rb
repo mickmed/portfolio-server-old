@@ -54,5 +54,5 @@ Rails.application.configure do
 
 
 # Store files locally.
-# config.active_storage.service = :google
+config.active_storage.service = :google
 end

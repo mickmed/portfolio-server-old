@@ -1,6 +1,6 @@
 app.yaml
 config/database.yml
-config/storage.yml
+# config/storage.yml
 
 config/secrets/
 config/credentials.yml.enc
