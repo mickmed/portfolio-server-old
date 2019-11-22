@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 
-# gem 'google-cloud-storage'
+gem 'google-cloud-storage'
 gem 'active_model_serializers'
 
 
@@ -10,7 +10,7 @@ gem 'pry', '~> 0.12.2'
 
 ruby '2.6.3'
 
-# gem "appengine", "~> 0.4.1"
+gem "appengine", "~> 0.4.1"
 
 gem 'rack-cors'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
