@@ -13,7 +13,7 @@ class TechnologiesController < ApplicationController
         # @technologies_pics.map do |p|
         #     p.image_url = p.picture.service_url
         # end
-    
+        #
         # @technologies_no_pics = Technology.left_joins(:picture_attachment)
         #                           .group(:id)
         #                           .having('COUNT(active_storage_attachments) = 0')
