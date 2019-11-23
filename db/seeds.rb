@@ -7,12 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-nyc_snaps = Project.create!(title: 'NYC Snaps', subtitle: 'ruby to the rescue', url: '')
-my_travelogue = Project.create!(title: 'My Travelogue', subtitle: 'pin your memories to the map', url: '')
-nyc_trees = Project.create!(title: 'NYC Trees', subtitle: 'mapping the trees of NYC', url: '')
-mental_math = Project.create!(title: 'Mental Math', subtitle: 'test out your math head', url: '')
-mick_medium = Project.create!(title: 'Mick_Medium', subtitle: 'NYC Snapshots', url: '')
-news_clover = Project.create!(title: 'News Clover', subtitle: 'calling NewsApi', url: '')
+nyc_snaps = Project.create!(title: 'NYC Snaps', subtitle: 'ruby to the rescue', site_url: '')
+my_travelogue = Project.create!(title: 'My Travelogue', subtitle: 'pin your memories to the map', site_url: '')
+nyc_trees = Project.create!(title: 'NYC Trees', subtitle: 'mapping the trees of NYC', site_url: '')
+mental_math = Project.create!(title: 'Mental Math', subtitle: 'test out your math head', site_url: '')
+mick_medium = Project.create!(title: 'Mick_Medium', subtitle: 'NYC Snapshots', site_url: '')
+news_clover = Project.create!(title: 'News Clover', subtitle: 'calling NewsApi', site_url: '')
 
 javascript = Technology.create!(name:'Javascript', projects:[nyc_snaps, my_travelogue, nyc_trees, mental_math])
 react = Technology.create!(name:'React', projects:[my_travelogue, nyc_trees])
@@ -27,6 +27,8 @@ rails = Technology.create!(name:"Rails", projects:[nyc_snaps])
 postgres = Technology.create!(name:"Postgres", projects:[nyc_snaps, my_travelogue])
 php = Technology.create!(name:"PHP", projects:[mick_medium, news_clover])
 mysql = Technology.create!(name:"MySQL", projects:[mick_medium])
+
+restfulApi = Trait.create!(name:"RESTful API", projects:[mick_medium])
 
 
 
