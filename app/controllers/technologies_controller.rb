@@ -25,7 +25,7 @@ class TechnologiesController < ApplicationController
       def show
         @technology = Technology.find(params[:id])
         
-        @technology.picture.attached? && @technology_img = @technology.picture.service_url && @technology.image_url = @technology_img
+        # @technology.picture.attached? && @technology_img = @technology.picture.service_url && @technology.image_url = @technology_img
         # puts Project.with_attached_picture.find(params[:id]).present?
         render json: { technology: @technology, projects: @technology.projects}
       end

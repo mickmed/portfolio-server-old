@@ -31,12 +31,12 @@ class ProjectsController < ApplicationController
 
   def show
     @project = Project.find(params[:id])
-    @project.picture.attached? && @project_img = @project.picture.service_url 
-    @project.image_url = @project_img
-    @project.joins(:technologies)
+    # @project.picture.attached? && @project_img = @project.picture.service_url 
+    # @project.image_url = @project_img
+    # @project.joins(:technologies)
     
     # puts Project.with_attached_picture.find(params[:id]).present?
-    render json: { project: @project, technologies: @project.technologies}
+    render json: { project: @project, technologies: @project.technologies, traits: @project.traits}
   end
 
   def create
