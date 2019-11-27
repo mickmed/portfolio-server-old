@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'google-cloud-storage'
 gem 'active_model_serializers'
-
+gem 'newrelic_rpm'
 
 gem 'pry', '~> 0.12.2'
 
