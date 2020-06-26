@@ -1,0 +1,21 @@
+# Logfile created on 2020-06-25 21:46:51 -0400 by logger.rb/66358
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Starting the New Relic agent version 6.7.0.359 in "development" environment.
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2020-06-25 21:46:51 -0400 M92p (32757)] WARN : No configuration file found. Working directory = /home/mick/apps/projects/portfolio-server-heroku/portfolio-server-mick
+[2020-06-25 21:46:51 -0400 M92p (32757)] WARN : Looked in these locations (based on defaults): /home/mick/apps/projects/portfolio-server-heroku/portfolio-server-mick/config/newrelic.yml, /home/mick/apps/projects/portfolio-server-heroku/portfolio-server-mick/newrelic.yml, /home/mick/apps/projects/portfolio-server-heroku/portfolio-server-mick/config/newrelic.yml, /home/mick/apps/projects/portfolio-server-heroku/portfolio-server-mick/newrelic.yml, /home/mick/.newrelic/newrelic.yml, /home/mick/newrelic.yml
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Environment: development
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : No known dispatcher detected.
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Application: development
+[2020-06-25 21:46:51 -0400 M92p (32757)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing deferred Rack::Builder instrumentation
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing Rack::Builder middleware instrumentation
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing ActiveJob instrumentation
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing ActiveStorage 5 instrumentation
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing Net instrumentation
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing Rails 3+ middleware instrumentation
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing notifications based Active Record instrumentation
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing notifications based Action Cable instrumentation
+[2020-06-25 21:46:51 -0400 M92p (32757)] INFO : Installing notification based Action View instrumentation
+[2020-06-25 21:46:52 -0400 M92p (32757)] INFO : Installing notifications based Action Controller instrumentation
+[2020-06-25 21:46:52 -0400 M92p (32757)] INFO : Finished instrumentation
+[2020-06-25 21:46:52 -0400 M92p (32757)] INFO : Doing deferred dependency-detection before Rack startup
